@@ -1,0 +1,71 @@
+.Header{
+    grid-area: header;
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    border-top: 5px #5fcd70 solid;
+    display: flex;
+    justify-content: space-around;
+
+    header{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        .mao{
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+
+        img{
+                height: 330px;
+
+        }
+    }
+    .texto{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 100px;
+
+        h1{
+            font-size: 40pt;
+            color:white; 
+        }
+        h1 span{
+            color: limegreen;
+        }
+        p{
+            font-size: 15pt;
+        }
+        }
+    .icone{
+        width: 150px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 15px;
+
+    span{
+        width: 40px;
+        height: 40px;
+        background-color: rgba(0, 0, 0, 0.342);
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+            &:hover{
+                background-color: green;    
+            }
+        
+        }
+    }
+    
+        
+    }
+}
